@@ -1,0 +1,15 @@
+public class DogDriver {
+    public static void main (String args[]) {
+        //1. Create a Song, or more
+        Dog someDog = new Dog();
+        Dog dog1 = new Dog("Fang", "Husky",  5, 80.0);
+        Dog dog2 = new Dog("NutMeg", "Austrailian Sheep dog", 12, 45.0);
+        Dog dog3 = new Dog("Rocky", "labrador", 2, 95.5);
+
+        System.out.println(dog1);
+        System.out.println("");
+        System.out.println(dog1);
+        System.out.println("");
+        System.out.println(dog1);
+    }
+}
