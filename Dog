@@ -76,7 +76,7 @@ public class Dog
         output += "Name: " + name;
         output += "\nBreed: " + breed;
         output += "\nAge: " + age;
-        output += "\nWeight" + weight;
+        output += "\nWeight: " + weight;
 
         return output;
     }// end toString
